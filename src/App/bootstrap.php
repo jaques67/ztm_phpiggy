@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-require __DIR__ . "/../../vendor/autoload.php";
+require __DIR__."/../../vendor/autoload.php";
 
-use Framework\App;
 use App\Controllers\HomeController;
+use Framework\App;
 
 $app = new App();
 
